@@ -40,9 +40,6 @@
 
   <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
-    <?php 
-    echo $_SERVER['HTTP_ACCEPT'];
-?>
       <div class="navbar-header">
         <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="icon icon-bar"></span>
@@ -167,6 +164,6 @@ et la lettre du R.G.P.D. </p>
 <script src="js/smoothscroll.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/custom.js"></script>
-
+<script src="js/fingerprint.js"></script>
 </body>
 </html>

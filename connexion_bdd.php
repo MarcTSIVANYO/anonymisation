@@ -3,9 +3,9 @@
 	{
 	 	$dbtype ='mysql'; 
 	    $host = 'localhost'; 
-	    $user = 'root'; 
-	    $pass = ''; 
-	    $database = 'anonymisation'; 
+	    $user = 'id18452998_root'; 
+	    $pass = 'I\o?Eu#\}Kr]CY1o'; 
+	    $database = 'id18452998_desanonymisation'; 
 	    $dns = $dbtype.':dbname='.$database.";host=".$host; 
 	    $dbh = new PDO( $dns, $user, $pass ); 
 	}
