@@ -23,8 +23,8 @@
 
   $json = json_encode($array, JSON_PRETTY_PRINT);
   //echo $json
-  $date = date("Y/m/d h:i:sa");
-  $id= md5($json);
+  $date = date("Y-m-d H:i:s");
+  $id = md5($json);
   // prepare sql and bind parameters
   $stmt = $dbh->prepare("INSERT INTO browser_finger_print (FPKey, Fingerprint, Horodate)
   VALUES (:fp_key, :finger_print, :horodate)");

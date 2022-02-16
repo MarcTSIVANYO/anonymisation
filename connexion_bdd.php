@@ -8,6 +8,7 @@
 	    $database = 'id18452998_desanonymisation'; 
 	    $dns = $dbtype.':dbname='.$database.";host=".$host; 
 	    $dbh = new PDO( $dns, $user, $pass ); 
+	   $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	}
 	catch (Exception $e)
 	{
